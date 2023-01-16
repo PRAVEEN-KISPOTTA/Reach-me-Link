@@ -9,6 +9,7 @@ class ListItem extends React.Component {
       <div className="ListItem" style={{ backgroundColor: item.bgColor }}>
         <a href={item.link}>
           <img src={item.icon} alt={item.name} />
+          {item.name}
         </a>
       </div>
     );

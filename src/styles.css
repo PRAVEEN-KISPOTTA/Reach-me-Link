@@ -2,8 +2,10 @@
   font-family: sans-serif;
   text-align: center;
 }
-.listItem div {
+.ListItem {
   padding: 4px;
+
+  align-items: center;
 }
 a {
   color: black;
@@ -11,5 +13,16 @@ a {
 }
 img {
   height: 15px;
-  padding: 0px 6px;
+}
+.img-border {
+  width: 30px;
+  margin-left: 10rem;
+  margin-top: 1rem;
+}
+.name-border {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 15%;
 }
